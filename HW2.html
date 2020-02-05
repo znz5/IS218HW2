@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tech Blog</title>
+	<link rel="stylesheet" href="HW2style.css">
+	<script src="HW2JS.js"></script>
+</head>
+<body>
+	<h2>Tech 24/7</h2>
+	<p>On my blog I mainly report about big tech companies and any of the latest innovations,
+	inventions, and news in the tech world. Never miss the latest in tech by reading this blog
+	daily for new articles! If you are interested in signing up for emails when a new 
+	article is posted, sign up below.</p>
+	<div>
+	<h3> Please enter your information below</h3>
+		<form id="form">
+			<label>First name:</label>
+			<input type="text" name="firstname" id="firstname"> 
+			<br>
+			<label>Last name:</label>
+			<input type="text" name="lastname" id="lastname">
+			<br>
+			<label>Email:</label>
+			<input type="text" name="email" id="email">
+			<br>
+			<label>Hometown:</label>
+			<input type="text" name="town" id="town"> 
+			<br>
+			<label>Major:</label>
+			<input type="text" name="major" id="major">
+			<br>
+			<br>
+			<button onclick="validateForm();">Submit</button>
+			<button id="submit" onclick="clearInputs();"> Cancel </button>
+		</form>
+	</div>
+</body>
+</html>
